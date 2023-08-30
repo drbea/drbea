@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 20px 30px;
+}
+
+.bio {
+  margin-bottom: 20px;
+}
+
+.competences {
+  margin-bottom: 20px;
+}
+
+.experience {
+  margin-bottom: 20px;
+}
+
+.formation {
+  margin-bottom: 20px;
+}
+
+.loisirs {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+}
