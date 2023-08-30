@@ -3,7 +3,7 @@
     text-align: center;
    /* display: flex; 
    */
-   background-image: url(../images/wikipedia_logo_\(svg\).svg.png), linear-gradient(to top right);
+   background-image: url(../images/wikipedia_logo_\(svg\).svg.png);
    background-size: contain;
 }
 
