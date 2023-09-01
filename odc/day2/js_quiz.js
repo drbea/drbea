@@ -1,11 +1,4 @@
 // Ce code est un jeu de devinettes qui permet à l'utilisateur de deviner des mots ou des phrases.
-
-// Variables
-let tape_mot = false; // Variable booléenne pour indiquer si l'utilisateur a entré un mot.
-let motApplication = "hello"; // Mot à deviner.
-let mot = ""; // Mot entré par l'utilisateur.
-let listeMot = ["Cachalot", "Petunia", "Serviette"]; // Liste des mots à deviner.
-let listePhrases = ["hello world", "Pas de panique", "Merci pour le poisson"]; // Liste des phrases à deviner.
 let score = 0; // Score de l'utilisateur.
 
 // Initialisation
@@ -42,5 +35,13 @@ if (userInput === "mot") {
   }
 }
 
+ // fonctiom pour afficher un message contenant le score apres le jeu
+function displayMessage(score, nbrQuestions){
+    message = "votre score est: " + score + "sur " + nbrQuestions + " questions"
+    return message
+}
+
 // Affichage du score final
+console.log(displayMessage(score, listeMot.length))
+
 console.log("Score final : " + score);
